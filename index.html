@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kumar Charitable Foundation - Helping financially deserving students pursue higher education." />
+  <title>Kumar Charitable Foundation</title>
+
+  <!-- Google Fonts: Playfair Display for Headings, Poppins for Body -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <!-- Header & Sticky Navigation Bar -->
+  <header class="site-header" id="header">
+    <nav class="navbar" aria-label="Main Navigation">
+      <div class="navbar-container">
+        <!-- Logo Text & Icon -->
+        <a href="#home" class="logo-link" aria-label="Kumar Charitable Foundation Homepage">
+          <span class="logo-icon" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+              <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+            </svg>
+          </span>
+          <span class="logo-text">Kumar Charitable Foundation</span>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <ul class="nav-menu" id="primary-navigation" role="menubar">
+          <li role="none">
+            <a href="#home" class="nav-link active" role="menuitem">Home</a>
+          </li>
+          <li role="none">
+            <a href="#about" class="nav-link" role="menuitem">About</a>
+          </li>
+          <li role="none">
+            <a href="#workflow" class="nav-link" role="menuitem">Workflow</a>
+          </li>
+          <li role="none">
+            <a href="#students" class="nav-link" role="menuitem">Student Information</a>
+          </li>
+          <li role="none">
+            <a href="#works" class="nav-link" role="menuitem">Student Works</a>
+          </li>
+          <li role="none">
+            <a href="#services" class="nav-link" role="menuitem">Services</a>
+          </li>
+          <li role="none">
+            <a href="#testimonials" class="nav-link" role="menuitem">Testimonials</a>
+          </li>
+          <li role="none">
+            <a href="#contact" class="nav-link" role="menuitem">Contact</a>
+          </li>
+        </ul>
+
+        <!-- Mobile Hamburger Menu Button -->
+        <button 
+          class="hamburger-btn" 
+          id="hamburger-toggle" 
+          aria-expanded="false" 
+          aria-controls="primary-navigation" 
+          aria-label="Toggle Navigation Menu">
+          <span class="hamburger-line line-1"></span>
+          <span class="hamburger-line line-2"></span>
+          <span class="hamburger-line line-3"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Navigation Backdrop Overlay for Mobile -->
+  <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
+
+  <!-- Main Content Area -->
+  <main id="main-content">
+    <!-- Home Hero Section -->
+    <section class="hero-section" id="home" aria-label="Home Hero Section">
+      <div class="hero-container">
+        <!-- Left Side: Typography & Tagline -->
+        <div class="hero-content fade-in-on-scroll">
+          <h1 class="hero-title">Kumar Charitable Foundation</h1>
+          <div class="hero-title-line" aria-hidden="true"></div>
+          <p class="hero-tagline">Empowering the Future Through Education</p>
+        </div>
+
+        <!-- Right Side: Poster Card & Decorative Circle -->
+        <div class="hero-media-wrapper fade-in-on-scroll">
+          <div class="hero-bg-circle" aria-hidden="true"></div>
+          <div class="hero-poster-card">
+            <img 
+              src="assets/images/foundation-poster.jpg" 
+              alt="Kumar Charitable Foundation Poster" 
+              class="hero-poster-img"
+              loading="eager"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-section" id="about" aria-label="About Us">
+      <div class="about-container">
+        <!-- Section Header -->
+        <div class="section-header fade-in-on-scroll">
+          <span class="section-tag">About Us</span>
+          <h2 class="section-title">About Us</h2>
+          <p class="section-subtitle">Building Futures Through Education, Compassion, and Service</p>
+        </div>
+
+        <!-- President & Team Content (Clean Single Column) -->
+        <div class="about-single-col fade-in-on-scroll">
+          <div class="about-text-content">
+            <h3 class="about-heading">About Our President and Team</h3>
+            <p class="about-paragraph">
+              Mr. Rudrakumar is the Founder and President of the Kumar Charitable Foundation. He is an engineer by profession and firmly believes that education is the most powerful tool to transform lives and build a better society.
+            </p>
+            <p class="about-paragraph">
+              Driven by his passion for helping deserving students, he established the foundation in 2023 with the vision of ensuring that no talented student is forced to discontinue their education because of financial hardship. What began as a small initiative supporting six students has steadily grown into a foundation that now supports more than twenty-five students in pursuing their higher education.
+            </p>
+            <p class="about-paragraph">
+              Mr. Rudrakumar personally contributes towards the educational expenses of deserving students and remains actively involved in the foundation's activities. He believes that every student with determination, talent, and strong values deserves an equal opportunity to succeed, regardless of their financial background.
+            </p>
+            <p class="about-paragraph">
+              Beyond financial assistance, he motivates students to dream big, work hard, and become responsible citizens who contribute positively to society. His leadership is guided by the principles of integrity, compassion, equality, and service, inspiring both students and volunteers to work together towards creating a brighter future.
+            </p>
+            <p class="about-paragraph">
+              Through his dedication and vision, the Kumar Charitable Foundation continues to grow each year, empowering young minds and helping them achieve their academic and career aspirations.
+            </p>
+          </div>
+        </div>
+
+        <!-- Our Coordinators Section -->
+        <div class="coordinators-section fade-in-on-scroll">
+          <div class="coordinators-header">
+            <h3 class="coordinators-title">Our Coordinators</h3>
+            <p class="coordinators-intro">
+              The Kumar Charitable Foundation is strengthened by a dedicated team of coordinators who work together to ensure that scholarships are awarded fairly, transparently, and efficiently. Their commitment and service play a vital role in fulfilling the foundation's mission of supporting deserving students.
+            </p>
+          </div>
+
+          <div class="coordinators-grid">
+            <!-- Coordinator Card 1 -->
+            <article class="coordinator-card">
+              <div class="card-badge">Coordinator</div>
+              <h4 class="coordinator-name">Mr. Basavaraju</h4>
+              <p class="coordinator-designation">Assistant Commissioner</p>
+              <p class="coordinator-desc">
+                Mr. Basavaraju serves as an Assistant Commissioner and plays a key role in the scholarship distribution process. He oversees the distribution of scholarship cheques to selected students, ensuring that financial assistance reaches every deserving beneficiary in a transparent and timely manner. His administrative guidance and support greatly contribute to the smooth functioning of the foundation.
+              </p>
+            </article>
+
+            <!-- Coordinator Card 2 -->
+            <article class="coordinator-card">
+              <div class="card-badge">Coordinator</div>
+              <h4 class="coordinator-name">Mrs. Manasa B. V.</h4>
+              <p class="coordinator-designation">Teacher</p>
+              <p class="coordinator-desc">
+                Mrs. Manasa B. V. is a teacher who actively participates in identifying deserving students for the scholarship program. She carefully evaluates applicants based on the foundation's three core selection criteria:
+              </p>
+              <ul class="criteria-list">
+                <li><span class="bullet-dot" aria-hidden="true"></span> Academic Merit</li>
+                <li><span class="bullet-dot" aria-hidden="true"></span> Ambition</li>
+                <li><span class="bullet-dot" aria-hidden="true"></span> Financial Need</li>
+              </ul>
+              <p class="coordinator-desc">
+                She ensures that scholarships are awarded to students who truly deserve the opportunity. Her dedication to education and student welfare makes her an invaluable member of the foundation.
+              </p>
+            </article>
+
+            <!-- Coordinator Card 3 -->
+            <article class="coordinator-card">
+              <div class="card-badge">Coordinator</div>
+              <h4 class="coordinator-name">Mr. Praveen</h4>
+              <p class="coordinator-designation">Coordinator</p>
+              <p class="coordinator-desc">
+                Mr. Praveen manages various operational responsibilities of the foundation, including banking procedures, financial documentation, scholarship records, and other administrative activities. His dedication behind the scenes ensures that the foundation's day-to-day operations run smoothly and that scholarship programs are carried out efficiently.
+              </p>
+            </article>
+          </div>
+        </div>
+
+        <!-- Working Together Highlighted Section -->
+        <div class="working-together-section fade-in-on-scroll">
+          <div class="working-together-card">
+            <div class="working-together-header">
+              <div class="working-together-icon-badge" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <h3 class="working-together-title">Working Together</h3>
+            </div>
+            <div class="working-together-content">
+              <p class="working-together-paragraph">
+                Under the leadership of Mr. Rudrakumar, the coordinators work as a united team with a shared vision of empowering deserving students through education. Their combined efforts—from selecting eligible students and managing scholarship distribution to handling financial and administrative responsibilities—ensure that the foundation operates with fairness, transparency, compassion, and dedication.
+              </p>
+              <p class="working-together-paragraph">
+                With the collective support of its leadership and coordinators, the Kumar Charitable Foundation continues to create opportunities, inspire hope, and transform the lives of talented students. The foundation remains committed to helping students overcome financial barriers, pursue higher education with confidence, and build a brighter future for themselves, their families, and society.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <!-- Scholarship Workflow Section -->
+    <section class="workflow-section" id="workflow" aria-label="Scholarship Workflow">
+      <div class="workflow-container">
+        <!-- Section Header -->
+        <div class="section-header fade-in-on-scroll">
+          <span class="section-tag">Step-by-Step Process</span>
+          <h2 class="section-title">Scholarship Workflow</h2>
+          <p class="section-subtitle">
+            Our scholarship selection process is transparent, merit-based, and designed to ensure that financial assistance reaches deserving students.
+          </p>
+        </div>
+
+        <!-- Flowchart Grid (Connected Cards) -->
+        <div class="workflow-grid fade-in-on-scroll">
+          <!-- Step 1 -->
+          <article class="workflow-card">
+            <div class="workflow-card-top">
+              <div class="step-circle" aria-label="Step 1">1</div>
+              <div class="workflow-icon-badge" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <circle cx="19" cy="11" r="2"></circle>
+                  <path d="M19 13v4"></path>
+                </svg>
+              </div>
+            </div>
+            <h3 class="workflow-step-title">Student Identification</h3>
+            <p class="workflow-desc">
+              Mrs. Manasa B. V., a teacher and coordinator, identifies academically deserving students based on:
+            </p>
+            <ul class="workflow-list">
+              <li><span class="workflow-bullet" aria-hidden="true"></span> Merit</li>
+              <li><span class="workflow-bullet" aria-hidden="true"></span> Ambition</li>
+              <li><span class="workflow-bullet" aria-hidden="true"></span> Financial Need</li>
+            </ul>
+            <div class="workflow-arrow-connector" aria-hidden="true">
+              <svg class="arrow-icon arrow-right" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              <svg class="arrow-icon arrow-down" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+            </div>
+          </article>
+
+          <!-- Step 2 -->
+          <article class="workflow-card">
+            <div class="workflow-card-top">
+              <div class="step-circle" aria-label="Step 2">2</div>
+              <div class="workflow-icon-badge" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+              </div>
+            </div>
+            <h3 class="workflow-step-title">Scholarship Application</h3>
+            <p class="workflow-desc">
+              Students visit the Kumar Charitable Foundation office at Padmanabhanagar and collect the official scholarship application form.
+            </p>
+            <div class="workflow-arrow-connector" aria-hidden="true">
+              <svg class="arrow-icon arrow-right" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              <svg class="arrow-icon arrow-down" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+            </div>
+          </article>
+
+          <!-- Step 3 -->
+          <article class="workflow-card">
+            <div class="workflow-card-top">
+              <div class="step-circle" aria-label="Step 3">3</div>
+              <div class="workflow-icon-badge" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 2L11 13"></path>
+                  <path d="M22 2l-7 20-4-9-9-4 20-7z"></path>
+                </svg>
+              </div>
+            </div>
+            <h3 class="workflow-step-title">Application Submission</h3>
+            <p class="workflow-desc">
+              Students complete the application form with detailed information explaining:
+            </p>
+            <ul class="workflow-list">
+              <li><span class="workflow-bullet" aria-hidden="true"></span> Academic Merit</li>
+              <li><span class="workflow-bullet" aria-hidden="true"></span> Career Ambition</li>
+              <li><span class="workflow-bullet" aria-hidden="true"></span> Financial Need</li>
+            </ul>
+            <p class="workflow-desc workflow-subheading">
+              They must attach all required supporting documents such as:
+            </p>
+            <ul class="workflow-list">
+              <li><span class="workflow-bullet" aria-hidden="true"></span> SSLC/PU marks cards</li>
+              <li><span class="workflow-bullet" aria-hidden="true"></span> Income certificate</li>
+              <li><span class="workflow-bullet" aria-hidden="true"></span> Aadhaar copy</li>
+              <li><span class="workflow-bullet" aria-hidden="true"></span> College admission details (if available)</li>
+              <li><span class="workflow-bullet" aria-hidden="true"></span> Any other required documents</li>
+            </ul>
+            <div class="workflow-arrow-connector" aria-hidden="true">
+              <svg class="arrow-icon arrow-turn" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+              <svg class="arrow-icon arrow-down" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+            </div>
+          </article>
+
+          <!-- Step 4 -->
+          <article class="workflow-card">
+            <div class="workflow-card-top">
+              <div class="step-circle" aria-label="Step 4">4</div>
+              <div class="workflow-icon-badge" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+            </div>
+            <h3 class="workflow-step-title">Personal Interview</h3>
+            <p class="workflow-desc">
+              Mr. Rudrakumar, along with the student leaders of the foundation, conducts a personal interview to evaluate each applicant.
+            </p>
+            <p class="workflow-desc workflow-subheading">
+              Selection is based on:
+            </p>
+            <ul class="workflow-list">
+              <li><span class="workflow-bullet" aria-hidden="true"></span> Academic Performance</li>
+              <li><span class="workflow-bullet" aria-hidden="true"></span> Goals and Ambition</li>
+              <li><span class="workflow-bullet" aria-hidden="true"></span> Financial Background</li>
+              <li><span class="workflow-bullet" aria-hidden="true"></span> Communication</li>
+              <li><span class="workflow-bullet" aria-hidden="true"></span> Commitment towards education</li>
+            </ul>
+            <div class="workflow-arrow-connector" aria-hidden="true">
+              <svg class="arrow-icon arrow-right" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              <svg class="arrow-icon arrow-down" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+            </div>
+          </article>
+
+          <!-- Step 5 -->
+          <article class="workflow-card">
+            <div class="workflow-card-top">
+              <div class="step-circle" aria-label="Step 5">5</div>
+              <div class="workflow-icon-badge" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="8" r="7"></circle>
+                  <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                </svg>
+              </div>
+            </div>
+            <h3 class="workflow-step-title">Scholarship Selection</h3>
+            <p class="workflow-desc">
+              Applicants who successfully clear the interview are officially selected as scholarship beneficiaries of the Kumar Charitable Foundation.
+            </p>
+            <div class="workflow-arrow-connector" aria-hidden="true">
+              <svg class="arrow-icon arrow-right" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              <svg class="arrow-icon arrow-down" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+            </div>
+          </article>
+
+          <!-- Step 6 -->
+          <article class="workflow-card">
+            <div class="workflow-card-top">
+              <div class="step-circle" aria-label="Step 6">6</div>
+              <div class="workflow-icon-badge" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+                  <line x1="1" y1="10" x2="23" y2="10"></line>
+                </svg>
+              </div>
+            </div>
+            <h3 class="workflow-step-title">Cheque Distribution</h3>
+            <p class="workflow-desc">
+              Selected students receive their scholarship cheque from Mr. Basavaraju, Coordinator of the Foundation.
+            </p>
+            <p class="workflow-desc">
+              The cheque distribution is conducted in a transparent and organized manner.
+            </p>
+            <div class="workflow-arrow-connector" aria-hidden="true">
+              <svg class="arrow-icon arrow-turn" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+              <svg class="arrow-icon arrow-down" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+            </div>
+          </article>
+
+          <!-- Step 7 -->
+          <article class="workflow-card">
+            <div class="workflow-card-top">
+              <div class="step-circle" aria-label="Step 7">7</div>
+              <div class="workflow-icon-badge" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+            </div>
+            <h3 class="workflow-step-title">College Admission</h3>
+            <p class="workflow-desc">
+              Students use the scholarship amount to secure admission in a recognized college and continue their higher education.
+            </p>
+            <div class="workflow-arrow-connector" aria-hidden="true">
+              <svg class="arrow-icon arrow-right" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              <svg class="arrow-icon arrow-down" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+            </div>
+          </article>
+
+          <!-- Step 8 -->
+          <article class="workflow-card">
+            <div class="workflow-card-top">
+              <div class="step-circle" aria-label="Step 8">8</div>
+              <div class="workflow-icon-badge" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <path d="M9 15l2 2 4-4"></path>
+                </svg>
+              </div>
+            </div>
+            <h3 class="workflow-step-title">Fee Receipt Submission</h3>
+            <p class="workflow-desc">
+              After completing admission, students submit the official college fee payment receipt to the Foundation for record keeping and scholarship verification.
+            </p>
+            <div class="workflow-arrow-connector" aria-hidden="true">
+              <svg class="arrow-icon arrow-right" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              <svg class="arrow-icon arrow-down" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+            </div>
+          </article>
+
+          <!-- Step 9 -->
+          <article class="workflow-card workflow-card-highlight">
+            <div class="workflow-card-top">
+              <div class="step-circle step-circle-star" aria-label="Step 9">9</div>
+              <div class="workflow-icon-badge workflow-icon-star" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+              </div>
+            </div>
+            <h3 class="workflow-step-title">Student Becomes a Foundation Scholar</h3>
+            <p class="workflow-desc">
+              The student officially becomes a Kumar Charitable Foundation Scholar and continues receiving guidance, motivation, and support throughout the academic journey.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Student Information Section -->
+    <section class="students-section" id="students" aria-label="Student Information">
+      <div class="students-container">
+        <!-- Section Header -->
+        <div class="section-header fade-in-on-scroll">
+          <span class="section-tag">Supported Scholars</span>
+          <h2 class="section-title">Student Information</h2>
+          <p class="section-subtitle">
+            Details of students currently supported by the Kumar Charitable Foundation.
+          </p>
+        </div>
+
+        <!-- Section Introduction Box -->
+        <div class="students-intro-card fade-in-on-scroll">
+          <div class="students-intro-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+              <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+            </svg>
+          </div>
+          <p class="students-intro-text">
+            The Kumar Charitable Foundation supports deserving students based on <strong>Merit</strong>, <strong>Ambition</strong>, and <strong>Financial Need</strong>. This section contains the details of students currently receiving educational support from the foundation.
+          </p>
+        </div>
+
+        <!-- Search & Control Bar -->
+        <div class="students-controls fade-in-on-scroll">
+          <div class="students-search-wrapper">
+            <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input 
+              type="text" 
+              id="student-search-input" 
+              class="student-search-input" 
+              placeholder="Search by student name, course, college, or branch..." 
+              aria-label="Search students by name, course, college, or branch"
+            />
+            <button id="search-clear-btn" class="search-clear-btn" aria-label="Clear search" style="display: none;">
+              &times;
+            </button>
+          </div>
+          <div class="students-count-badge" id="students-count-badge">
+            Showing 5 Scholars
+          </div>
+        </div>
+
+        <!-- Student Cards Grid (Rendered Dynamically via JS) -->
+        <div class="students-grid fade-in-on-scroll" id="students-grid">
+          <!-- Dynamic Student Cards Rendered by script.js -->
+        </div>
+
+        <!-- No Results Container -->
+        <div class="students-no-results" id="students-no-results" style="display: none;">
+          <p>No student records match your search criteria.</p>
+          <button id="reset-search-btn" class="reset-search-btn">Reset Search</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Student Works Section -->
+    <section class="works-section" id="works" aria-label="Student Works">
+      <div class="works-container">
+        <!-- Section Header -->
+        <div class="section-header fade-in-on-scroll">
+          <span class="section-tag">Innovation & Learning</span>
+          <h2 class="section-title">Student Works</h2>
+          <p class="section-subtitle">
+            Showcasing innovative projects, web applications, and technical work created by our foundation scholars.
+          </p>
+        </div>
+
+        <!-- Search & Filter Controls -->
+        <div class="works-controls fade-in-on-scroll">
+          <div class="works-search-wrapper">
+            <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input 
+              type="text" 
+              id="project-search-input" 
+              class="project-search-input" 
+              placeholder="Search projects by student name or project title..." 
+              aria-label="Search projects by student name or project title"
+            />
+            <button id="project-search-clear-btn" class="search-clear-btn" aria-label="Clear project search" style="display: none;">
+              &times;
+            </button>
+          </div>
+          <div class="works-count-badge" id="projects-count-badge">
+            Showing 3 Projects
+          </div>
+        </div>
+
+        <!-- Projects Grid (Rendered Dynamically via JS) -->
+        <div class="works-grid fade-in-on-scroll" id="projects-grid">
+          <!-- Dynamic Project Cards Rendered by script.js -->
+        </div>
+
+        <!-- No Results Container -->
+        <div class="works-no-results" id="projects-no-results" style="display: none;">
+          <p>No student projects match your search criteria.</p>
+          <button id="reset-project-search-btn" class="reset-search-btn">Reset Search</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services" aria-label="Services">
+      <div class="services-container">
+        <!-- Section Header -->
+        <div class="section-header fade-in-on-scroll">
+          <span class="section-tag">What We Offer</span>
+          <h2 class="section-title">Services</h2>
+          <p class="section-subtitle">
+            Providing educational empowerment, transparent scholarship selection, and ongoing mentorship for deserving students.
+          </p>
+        </div>
+
+        <!-- Services 3-Column Grid -->
+        <div class="services-grid fade-in-on-scroll">
+          <!-- Service Card 1 -->
+          <article class="service-card">
+            <div class="service-icon-wrapper" aria-hidden="true">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Scholarship Assistance</h3>
+            <p class="service-description">
+              We provide educational scholarships to deserving students who have demonstrated academic excellence and financial need. Students are selected based on three core values: Merit, Ambition, and Financial Need, ensuring equal opportunities for talented students to pursue higher education.
+            </p>
+          </article>
+
+          <!-- Service Card 2 -->
+          <article class="service-card">
+            <div class="service-icon-wrapper" aria-hidden="true">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+                <path d="M9 14l2 2 4-4"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Student Selection Process</h3>
+            <p class="service-description">
+              Our scholarship selection process is transparent and fair. Applications are carefully reviewed, followed by personal interviews conducted by the foundation's president, coordinators, and student leaders to identify deserving candidates.
+            </p>
+          </article>
+
+          <!-- Service Card 3 -->
+          <article class="service-card">
+            <div class="service-icon-wrapper" aria-hidden="true">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Student Support & Mentorship</h3>
+            <p class="service-description">
+              Beyond financial assistance, the foundation provides continuous guidance, motivation, and mentorship to help students succeed in their academic journey, build confidence, and achieve their career goals.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section" id="testimonials" aria-label="Testimonials">
+      <div class="testimonials-container">
+        <!-- Section Header -->
+        <div class="section-header fade-in-on-scroll">
+          <span class="section-tag">Student Voices</span>
+          <h2 class="section-title">Voices of Our Students</h2>
+          <p class="section-subtitle">
+            The impact of education is best reflected through the experiences of the students we support.
+          </p>
+        </div>
+
+        <!-- Testimonial Carousel Wrapper -->
+        <div class="testimonials-carousel-wrapper fade-in-on-scroll">
+          <div class="testimonial-card" id="testimonial-card">
+            <!-- Graduation Cap / Quote Icon -->
+            <div class="testimonial-icon-wrapper" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+            </div>
+
+            <!-- Quote Text -->
+            <blockquote class="testimonial-quote-text" id="testimonial-quote">
+              "The scholarship from the Kumar Charitable Foundation gave me the confidence to pursue higher education without worrying about financial difficulties. I am sincerely grateful for this opportunity."
+            </blockquote>
+
+            <!-- Five-Star Rating -->
+            <div class="testimonial-rating" aria-label="5 out of 5 stars">
+              <span class="star-icon">★</span>
+              <span class="star-icon">★</span>
+              <span class="star-icon">★</span>
+              <span class="star-icon">★</span>
+              <span class="star-icon">★</span>
+            </div>
+
+            <!-- Author Attribution -->
+            <div class="testimonial-author-info">
+              <h4 class="author-name">SAHANA</h4>
+              <p class="author-role">Engineering Student</p>
+              <span class="author-label">Kumar Charitable Foundation Student</span>
+            </div>
+          </div>
+
+          <!-- Carousel Controls -->
+          <div class="carousel-controls-wrapper">
+            <button class="carousel-btn prev-btn" id="testimonial-prev-btn" aria-label="Previous Testimonial">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="15 18 9 12 15 6"></polyline>
+              </svg>
+            </button>
+            
+            <div class="carousel-dots-container" id="testimonial-dots">
+              <!-- Dots rendered dynamically via JS -->
+            </div>
+
+            <button class="carousel-btn next-btn" id="testimonial-next-btn" aria-label="Next Testimonial">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </button>
+          </div>
+
+          <div class="carousel-counter" id="testimonial-counter">1 / 20</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Information Section -->
+    <section class="contact-section" id="contact" aria-label="Contact Information">
+      <div class="contact-container">
+        <!-- Section Header -->
+        <div class="section-header fade-in-on-scroll">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Contact Information</h2>
+          <p class="section-subtitle">
+            💬 We welcome scholarship enquiries, volunteer requests, donations, and general questions. Our team will respond as soon as possible.
+          </p>
+        </div>
+
+        <!-- Contact Cards Grid -->
+        <div class="contact-grid fade-in-on-scroll">
+          <!-- Address Card -->
+          <article class="contact-card">
+            <div class="contact-icon-wrapper" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <h3 class="contact-card-title">Address</h3>
+            <div class="contact-card-content">
+              <p class="contact-org-name">Kumar Charitable Foundation</p>
+              <a href="https://maps.app.goo.gl/Mk2BHp4anmoQk5mi9?g_st=aw" target="_blank" rel="noopener noreferrer" class="contact-address-link" title="Open in Google Maps">
+                Padmanabhanagar,<br />
+                Bengaluru, Karnataka – India
+              </a>
+              <a href="https://maps.app.goo.gl/Mk2BHp4anmoQk5mi9?g_st=aw" target="_blank" rel="noopener noreferrer" class="contact-map-btn">
+                <span>View on Google Maps</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Phone Numbers Card -->
+          <article class="contact-card">
+            <div class="contact-icon-wrapper" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </div>
+            <h3 class="contact-card-title">Phone Numbers</h3>
+            <div class="contact-card-content">
+              <div class="contact-person">
+                <span class="person-name">Mr. Basavaraju <span class="person-role">(Coordinator)</span></span>
+                <a href="tel:+919448659002" class="contact-phone-link">+91 94486 59002</a>
+              </div>
+              <div class="contact-person">
+                <span class="person-name">Mrs. Manasa B. V. <span class="person-role">(Coordinator)</span></span>
+                <a href="tel:+919480515114" class="contact-phone-link">+91 94805 15114</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Email Card -->
+          <article class="contact-card">
+            <div class="contact-icon-wrapper" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </div>
+            <h3 class="contact-card-title">Email</h3>
+            <div class="contact-card-content">
+              <a href="mailto:info@kumarcharity.org" class="contact-email-link">info@kumarcharity.org</a>
+              <span class="contact-subnote">(Replace with your official email if available.)</span>
+            </div>
+          </article>
+
+          <!-- Office Hours Card -->
+          <article class="contact-card">
+            <div class="contact-icon-wrapper" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <h3 class="contact-card-title">Office Hours</h3>
+            <div class="contact-card-content">
+              <p class="contact-hours-days">Monday – Friday</p>
+              <p class="contact-hours-time">8:00 AM – 7:00 PM</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p class="copyright-text">&copy; 2026 Kumar Charitable Foundation</p>
+    </div>
+  </footer>
+
+  <!-- Vanilla JavaScript -->
+  <script src="./script.js" defer></script>
+</body>
+</html>
